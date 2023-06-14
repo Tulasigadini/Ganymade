@@ -1,18 +1,3 @@
-/*-----------------------------------*\
-  #main.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -171,6 +156,8 @@
   .social-list {
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
+    margin-left: 40px;
     gap: 12px;
   }
   

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GANYMADE</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="homes.css">
+
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>GANYMADE</h1>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+            <h1>GANYMADE</h1>
+          </a>
+
+         
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <h2 href="#" onclick="showHome()">Home</h2>
+          </li>
+
+          <li>
+            <h2 href="#" onclick="showAbout()">About</h2>
+          </li>
+
+          <li>
+            <h2 href="#" onclick="showServices()">Services</h2>
+          </li>
+
+          <li>
+            <h2 href="#" onclick="showContact()">Contact</h2>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="tskgadini@gmail.com" class="contact-link">tskgadini@gmail.com</a>
+
+          <a href="tel:8712387892" class="contact-link">+91 8712387892</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+  
+  <!-- sidebar -->
+  
+  <div class="container">
+    <div class="cards">
+      <div class="card">
+        <h1>Tulasi sai kumar</h1>
+        <p>Jaguar</p>
+      </div>
+      <div class="card">
+        <h1>Sudhanva</h1>
+        <p>Duke</p>
+      </div>
+      <div class="card">
+        <h1>Sai kiran</h1>
+        <p>Pulsar</p>
+      </div>
+    </div>
+    <div class="prev" onclick="slidePrev()">&#10094;</div>
+    <div class="next" onclick="slideNext()">&#10095;</div>
+  </div>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="box">pulsar</div>
+      <div class="box">duke</div>
+      <div class="box">ninja</div>
+      <div class="box">r15</div>
+      <div class="box">suzuki</div>
+      <div class="box">kia</div>
+      <div class="box">audi</div>
+      <div class="box">hundai</div>
+      <div class="box">tata</div>
+      <div class="box">apprelia</div>
+      
+    </div>
+  </div>
+  <div class="slider-controls">
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+  </div>
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>
+        Welcome to the Zuxr website. Explore our services and contact us for
+        more information.
+      </p>
+    </section>
+    <section id="about" style="display: none">
+      <h2>About</h2>
+      <p>
+        We are a leading provider of high-quality motorcycles and automobiles.
+        Our team is dedicated to delivering top-notch products and exceptional
+        customer service.
+      </p>
+    </section>
+    <section id="services" style="display: none">
+      <h2>Services</h2>
+      <p>1. Motorcycle Sales</p>
+      <p>2. Car Sales</p>
+      <p>3. Maintenance and Repair</p>
+      <p>4. Spare Parts</p>
+    </section>
+    <section id="contact" style="display: none">
+      <h2>Contact</h2>
+      <p>
+        For any inquiries or assistance, please reach out to us using the
+        contact details below:
+      </p>
+      <div class="contact-details">
+        <p><strong>Company Name:</strong> Zuxr</p>
+        <p><strong>Address:</strong> Madhapur, Hyderabad, Telangana, India</p>
+        <p><strong>Phone:</strong> 8712387892</p>
+        <p><strong>Email:</strong> tskgadini@gmail.com</p>
+      </div>
+    </section>
+  </main>
+  <div class="trending">
+    <h2>Trending Now</h2>
+    <div class="trending-items">
+      <div class="trending-item">Electric Vehicles</div>
+      <div class="trending-item">Autonomous Driving</div>
+      <div class="trending-item">Hybrid Cars</div>
+      <div class="trending-item">Green Energy Solutions</div>
+    </div>
+  </div>
+
+<!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        
+
+        <p class="footer-text">
+          &copy; 2023 ZUXR <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Hyderabad,madhapur
+          </address>
+        </li>
+
+        <li>
+          <a href="tskgadini@gmail.com" class="footer-link">tskgadini@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:8712387892" class="footer-link">+91 8712387892</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="home.js"></script>
+  <script src="homes.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
